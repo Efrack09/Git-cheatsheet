@@ -8,8 +8,9 @@ Enlazar el repositorio local con github:
 //4. Si ya tienes añadido todo al staging y ya hicicste commit, solo te queda subirlo a github con: git push -u origin master//
 
 Notas: Te debe pedir usuario y contraseña de github
+
 Nota2: Si no has configurado tu nombre y correo hazlo con los comandos:
-==========================================================
+
 //a) git config --global user.name "Tu nombre"//
 
 //b) git config --global user.email "Tu email"//
