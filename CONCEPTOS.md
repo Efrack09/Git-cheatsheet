@@ -1,4 +1,4 @@
- ####### Enlazar el repositorio local con github:
+ #######Enlazar el repositorio local con github:
 =========================================================
 //1. Crea tu repo en la plataforma de github//
 
