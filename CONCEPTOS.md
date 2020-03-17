@@ -1,4 +1,4 @@
-Enlazar repo local con github:
+Enlazar el repositorio local con github:
 
 //1. Crea tu repo en la plataforma de github//
 
@@ -28,7 +28,7 @@ Conceptos:
 
 //git merge Rama: mezclar cambios de una rama a la que estas actualmente//
 
-//git pull: Sirve para bajar y hacer merge cambios del repositorio remoto//
+//git pull: Sirve para bajar y hacer cambios del repositorio remoto//
 
 Comandos ultiles:
 
