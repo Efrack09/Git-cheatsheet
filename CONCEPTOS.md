@@ -35,3 +35,15 @@ Comandos ultiles:
 //git log: Muestra el log de tus commits en la rama actual//
 
 //git status: Muestra los archivos en staging y los archivos no trackeados//
+
+//echo 'My Project' > README
+git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    README
+
+(use "git add" to track)//
+
+
