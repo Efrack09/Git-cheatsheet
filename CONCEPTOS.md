@@ -14,7 +14,7 @@ Nota2: Si no has configurado tu nombre y correo hazlo con los comandos:
 
 //b) git config --global user.email "Tu email"//
 
- ####### Conceptos importantes: 
+Conceptos importantes: 
 ==========================================================
 //git branch: Ver las ramas existentes y en cual estas actualmente//
 
@@ -22,7 +22,7 @@ Nota2: Si no has configurado tu nombre y correo hazlo con los comandos:
 
 //git checkout nombre_rama:  Se cambia a la rama llamada como se indique en "nombre_rama"//
 
- ####### Conceptos:
+Conceptos:
 =========================================================
 //git fetch: Bajar cambios del remoto//
 
@@ -30,7 +30,7 @@ Nota2: Si no has configurado tu nombre y correo hazlo con los comandos:
 
 //git pull: Sirve para bajar y hacer cambios del repositorio remoto//
 
- ####### Comandos ultiles:
+Comandos ultiles:
 =========================================================
 //git log: Muestra el log de tus commits en la rama actual//
 
