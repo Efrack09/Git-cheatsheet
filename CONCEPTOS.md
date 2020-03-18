@@ -5,6 +5,7 @@ Enlazar el repositorio local con github
 //1. Crea tu repo en la plataforma de github//
 
 //2. Copia el enlace de https//
+
 //3. En la carpeta de tu repo local: git remote add origin [pegas el enlace aqui] por ejemplo: git remote add origin https://github.com/etc//
 
 //4. Si ya tienes añadido todo al staging y ya hicicste commit, solo te queda subirlo a github con: git push -u origin master//
