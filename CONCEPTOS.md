@@ -59,6 +59,8 @@ Untracked files:
 
 _CHAPER 3_
 =========================================================
+Branches in a Nutshell
+=========================================================
 _At this point, you'll feel comfortable creating new branches, jumping between branches to work, and merging (merge) branches between them. You'll also learn how to share your branches by sending them (push) to a shared server, how to work collaboratively on shared branches, and how to reorganize (rebase) your branches before sharing them. Next, we'll talk about what you need to have your own Git hosting server_
 
 To visualize this, let’s assume that you have a directory containing three files, and you stage them all and commit. Staging the files computes a checksum for each one (the SHA-1 hash we mentioned in Getting Started), stores that version of the file in the Git repository (Git refers to them as blobs), and adds that checksum to the staging area:
@@ -71,21 +73,21 @@ What happens when you create a new branch? Well, doing so creates a new pointer 
 
 _git branch testing
 
+Basic Branching and Merging
 =========================================================
 Now your project history has diverged (see Divergent history). You created and switched to a branch, did some work on it, and then switched back to your main branch and did other work. Both of those changes are isolated in separate branches: you can switch back and forth between the branches and merge them together when you’re ready. And you did all that with simple branch, checkout, and commit commands
 
-=========================================================
+
 This looks a bit different than the hotfix merge you did earlier. In this case, your development history has diverged from some older point. Because the commit on the branch you’re on isn’t a direct ancestor of the branch you’re merging in, Git has to do some work. In this case, Git does a simple three-way merge, using the two snapshots pointed to by the branch tips and the common ancestor of the two.
 
+Branch Management
 =========================================================
 Occasionally, this process doesn’t go smoothly. If you changed the same part of the same file differently in the two branches you’re merging, Git won’t be able to merge them cleanly. If your fix for issue #53 modified the same part of a file as the hotfix branch
-
-=========================================================
 
 Topic branches, however, are useful in projects of any size. A topic branch is a short-lived branch that you create and use for a single particular feature or related work. This is something you’ve likely never done with a VCS before because it’s generally too expensive to create and merge branches. But in Git it’s common to create, work on, merge, and delete branches several times a day.
 
 It’s important to remember when you’re doing all this that these branches are completely local. When you’re branching and merging, everything is being done only in your Git repository — there is no communication with the server.
-
+Remote Branches
 =========================================================
 Remote references are references (pointers) in your remote repositories, including branches, tags, and so on. You can get a full list of remote references explicitly with git ls-remote <remote>, or git remote show <remote> for remote branches as well as more information. Nevertheless, a more common way is to take advantage of remote-tracking branches.
   
