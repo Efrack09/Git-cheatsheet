@@ -40,9 +40,13 @@ Comandos ultiles
 //git status: Muestra los archivos en staging y los archivos no trackeados//
 
 //echo 'My Project' > README
+
 git status
+
 On branch master
+
 Untracked files:
+
   (use "git add <file>..." to include in what will be committed)
 
     README
