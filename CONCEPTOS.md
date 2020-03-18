@@ -4,7 +4,7 @@ Link the local repository to github
 =========================================================
 
 _At this point you can do all the basic Git operations locally: Create or clone a repository, make changes, prepare and commit those changes, and view the history of changes in the repository. Here's the best feature of Git: Your branch model.
-Create your repository on the github platform
+Create your repository on the github platform_
 
 Copy the https link
 
@@ -59,7 +59,7 @@ Untracked files:
 
 _CHAPER 3_
 =========================================================
-At this point, you'll feel comfortable creating new branches, jumping between branches to work, and merging (merge) branches between them. You'll also learn how to share your branches by sending them (push) to a shared server, how to work collaboratively on shared branches, and how to reorganize (rebase) your branches before sharing them. Next, we'll talk about what you need to have your own Git hosting server.
+_At this point, you'll feel comfortable creating new branches, jumping between branches to work, and merging (merge) branches between them. You'll also learn how to share your branches by sending them (push) to a shared server, how to work collaboratively on shared branches, and how to reorganize (rebase) your branches before sharing them. Next, we'll talk about what you need to have your own Git hosting server_
 
 To visualize this, let’s assume that you have a directory containing three files, and you stage them all and commit. Staging the files computes a checksum for each one (the SHA-1 hash we mentioned in Getting Started), stores that version of the file in the Git repository (Git refers to them as blobs), and adds that checksum to the staging area:
 
