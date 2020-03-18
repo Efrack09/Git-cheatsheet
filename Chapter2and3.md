@@ -73,7 +73,9 @@ _git commit -m 'Initial commit'_
 
 What happens when you create a new branch? Well, doing so creates a new pointer for you to move around. Let’s say you want to create a new branch called testing. You do this with the git branch command:
 
-_git branch testing_
+_git branch testing_: This will create a new pointer pointing to the same confirmation where you are currently
+
+_git checkout testing_:This moves the HEAD pointer to the testing branch.
 
 Basic Branching and Merging
 =========================================================
@@ -81,6 +83,13 @@ Now your project history has diverged (see Divergent history). You created and s
 
 This looks a bit different than the hotfix merge you did earlier. In this case, your development history has diverged from some older point. Because the commit on the branch you’re on isn’t a direct ancestor of the branch you’re merging in, Git has to do some work. In this case, Git does a simple three-way merge, using the two snapshots pointed to by the branch tips and the common ancestor of the two.
 
+_git checkout master_:If we have a problem in the main version we can do a new auxiliar branch to solve this problem
+
+_git merge hotfix_
+
+_git mergetool_
+
+_git branch --no-merged --merge_
 Branch Management
 =========================================================
 Occasionally, this process doesn’t go smoothly. If you changed the same part of the same file differently in the two branches you’re merging, Git won’t be able to merge them cleanly. If your fix for issue #53 modified the same part of a file as the hotfix branch
@@ -96,4 +105,14 @@ Remote references are references (pointers) in your remote repositories, includi
 Now, you can run git fetch teamone to fetch everything the remote teamone server has that you don’t have yet. Because that server has a subset of the data your origin server has right now, Git fetches no data but sets a remote-tracking branch called teamone/master to point to the commit that teamone has as its master branch.
 
 Note that the snapshot pointed to by the final commit you end up with, whether it’s the last of the rebased commits for a rebase or the final merge commit after a merge, is the same snapshot — it’s only the history that is different. Rebasing replays changes from one line of work onto another in the order they were introduced, whereas merging takes the endpoints and merges them together.
+
+_git checkout --track origin/server_
+
+_git rebase master_
+
+_git remote --v_: To delete files
+
+
+
+
 
