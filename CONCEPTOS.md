@@ -12,9 +12,9 @@ por ejemplo: git remote add origin https://github.com/etc
 
 4. Si ya tienes añadido todo al staging y ya hicicste commit, solo te queda subirlo a github con: _git push -u origin master_
 
-**Notas**: Te debe pedir usuario y contraseña de github
+**Nota**: Te debe pedir usuario y contraseña de github
 
-**Nota2**: Si no has configurado tu nombre y correo hazlo con los comandos:
+**Nota**: Si no has configurado tu nombre y correo hazlo con los comandos:
 
 a) _git config --global user.name "Tu nombre"_
 
