@@ -29,6 +29,7 @@ _git branch_: See the existing branches and on which you are currently
 _git branch something_: Create a new branch called "something"
 
 _git checkout branch_name_: Changed to called branch as indicated in "branch name"
+
 Conceptos
 =========================================================
 _git fetch_: Lower ingesses of the remote
@@ -39,6 +40,7 @@ _git pull_: It serves to download and make changes to the remote repository
 
 Ulil commandos
 =========================================================
+
 _git log_: Show the log of your commits in the current branch
 
 _git status_: Shows staging files and untracked files
@@ -65,13 +67,13 @@ _At this point, you'll feel comfortable creating new branches, jumping between b
 
 To visualize this, let’s assume that you have a directory containing three files, and you stage them all and commit. Staging the files computes a checksum for each one (the SHA-1 hash we mentioned in Getting Started), stores that version of the file in the Git repository (Git refers to them as blobs), and adds that checksum to the staging area:
 
-_git add README test.rb LICENSE
+_git add README test.rb LICENSE_
 
-_git commit -m 'Initial commit'
+_git commit -m 'Initial commit'_
 
 What happens when you create a new branch? Well, doing so creates a new pointer for you to move around. Let’s say you want to create a new branch called testing. You do this with the git branch command:
 
-_git branch testing
+_git branch testing_
 
 Basic Branching and Merging
 =========================================================
