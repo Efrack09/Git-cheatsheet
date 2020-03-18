@@ -6,43 +6,45 @@ Enlazar el repositorio local con github
 
 //2. Copia el enlace de https//
 
-//3. En la carpeta de tu repo local: git remote add origin [pegas el enlace aqui] por ejemplo: git remote add origin https://github.com/etc//
+//3. En la carpeta de tu repo local: _git remote add origin_ [pegas el enlace aqui]
 
-//4. Si ya tienes añadido todo al staging y ya hicicste commit, solo te queda subirlo a github con: git push -u origin master//
+por ejemplo: git remote add origin https://github.com/etc//
+
+//4. Si ya tienes añadido todo al staging y ya hicicste commit, solo te queda subirlo a github con: _git push -u origin master_//
 
 Notas: Te debe pedir usuario y contraseña de github
 
 Nota2: Si no has configurado tu nombre y correo hazlo con los comandos:
 
-//a) git config --global user.name "Tu nombre"//
+//a) _git config --global user.name "Tu nombre"_//
 
-//b) git config --global user.email "Tu email"//
+//b) _git config --global user.email "Tu email"_//
 
 Conceptos importantes
 ==========================================================
-//git branch: Ver las ramas existentes y en cual estas actualmente//
+//_git branch_: Ver las ramas existentes y en cual estas actualmente//
 
-//git branch algo: Crea una nueva rama llamada "algo"//
+//_git branch algo_: Crea una nueva rama llamada "algo"//
 
-//git checkout nombre_rama:  Se cambia a la rama llamada como se indique en "nombre_rama"//
+//_git checkout nombre_rama_:  Se cambia a la rama llamada como se indique en "nombre_rama"//
 
 Conceptos
 =========================================================
-//git fetch: Bajar cambios del remoto//
+//_git fetch_: Bajar cambios del remoto//
 
-//git merge Rama: mezclar cambios de una rama a la que estas actualmente//
+//_git merge Rama_: mezclar cambios de una rama a la que estas actualmente//
 
-//git pull: Sirve para bajar y hacer cambios del repositorio remoto//
+//_git pull_: Sirve para bajar y hacer cambios del repositorio remoto//
 
 Comandos ultiles
 =========================================================
-//git log: Muestra el log de tus commits en la rama actual//
+//_git log_: Muestra el log de tus commits en la rama actual//
 
-//git status: Muestra los archivos en staging y los archivos no trackeados//
+//_git status_: Muestra los archivos en staging y los archivos no trackeados//
 
 //echo 'My Project' > README
 
-git status
+_git status_
 
 On branch master
 
