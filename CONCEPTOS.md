@@ -1,6 +1,6 @@
-CHAPER 2
+_CHAPER 2_
 =========================================================
-Enlazar el repositorio local con github:
+Enlazar el repositorio local con github
 =========================================================
 //1. Crea tu repo en la plataforma de github//
 
@@ -17,7 +17,7 @@ Nota2: Si no has configurado tu nombre y correo hazlo con los comandos:
 
 //b) git config --global user.email "Tu email"//
 
-Conceptos importantes: 
+Conceptos importantes
 ==========================================================
 //git branch: Ver las ramas existentes y en cual estas actualmente//
 
@@ -25,7 +25,7 @@ Conceptos importantes:
 
 //git checkout nombre_rama:  Se cambia a la rama llamada como se indique en "nombre_rama"//
 
-Conceptos:
+Conceptos
 =========================================================
 //git fetch: Bajar cambios del remoto//
 
@@ -33,7 +33,7 @@ Conceptos:
 
 //git pull: Sirve para bajar y hacer cambios del repositorio remoto//
 
-Comandos ultiles:
+Comandos ultiles
 =========================================================
 //git log: Muestra el log de tus commits en la rama actual//
 
@@ -49,5 +49,5 @@ Untracked files:
 
 (use "git add" to track)//
 
-CHAPER 3
+_CHAPER 3_
 =========================================================
