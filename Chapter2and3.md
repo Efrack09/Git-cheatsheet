@@ -16,7 +16,7 @@ If you already have added everything to staging and already hicicste commit, you
 
 **Note**: You should be asked for github username and password
 
-**Note**: f you haven't set up your name and mail, do so with the commands
+**Note**: If you haven't set up your name and mail, do so with the commands
 
 a) _git config --global user.name "Your name"_
 
@@ -75,7 +75,7 @@ What happens when you create a new branch? Well, doing so creates a new pointer 
 
 _git branch testing_: This will create a new pointer pointing to the same confirmation where you are currently
 
-_git checkout testing_:This moves the HEAD pointer to the testing branch.
+_git checkout testing_: This moves the HEAD pointer to the testing branch.
 
 Basic Branching and Merging
 =========================================================
@@ -90,6 +90,7 @@ _git merge hotfix_
 _git mergetool_
 
 _git branch --no-merged --merge_
+
 Branch Management
 =========================================================
 Occasionally, this process doesn’t go smoothly. If you changed the same part of the same file differently in the two branches you’re merging, Git won’t be able to merge them cleanly. If your fix for issue #53 modified the same part of a file as the hotfix branch
@@ -111,8 +112,4 @@ _git checkout --track origin/server_
 _git rebase master_
 
 _git remote --v_: To delete files
-
-
-
-
 
