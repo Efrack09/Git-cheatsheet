@@ -1,22 +1,22 @@
 #include <stdio.h>
 int main(int argc, char * argv[]) {
-    int i = 0;//is important create the index for the future loops
+    int i = 0;
     int j = 0;
-    char * states[] = {//we going to create a array of strings with some state names
+    char * states[] = {
         "California",
         "Oregon",
         "Washington",
         "Texas"
     };
-    while (i < argc) {//this is a while-loop and count all arguments with argc and print each one with argv
+    while (i < argc) {
         printf("arg %d: %s\n", i, argv[i]);
         states[j+4] = argv[j];
         j++;
         i++;
     }
-    int num_states = 4+argc;//create an axuliar variable to count
-    i = 0;//restart the index
-    while (i < num_states) {//here we will print all states
+    int num_states = 4+argc;
+    i = 0;
+    while (i < num_states) {
         printf("state %d: %s\n", i, states[i]);
         i++;
     }
