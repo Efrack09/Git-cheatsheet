@@ -27,6 +27,46 @@ int main(int argc, char *argv[])
 
 
 }
+
+
+/*
+areas[0]=100;
+areas[1]=160;
+areas[2]=10;
+areas[3]=150;
+Result 
+The size of an int: 4
+The size of areas (int[]): 20
+The number of ints in areas: 5
+The first area is 100, the 2nd 160.
+The size of a char: 1
+The size of name (char[]): 4
+The number of chars: 4
+The size of full_name (char[]): 12
+The number of chars: 12
+Result 2
+The size of an int: 4
+The size of areas (int[]): 20
+The number of ints in areas: 5
+The first area is 100, the 2nd 160.
+The size of a char: 1
+The size of name (char[]): 4
+The number of chars: 4
+The size of full_name (char[]): 12
+The number of chars: 12
+name="JUAN" and full_name="JMB A. Shaw"
+Result 3
+The size of an int: 4
+The size of areas (int[]): 20
+The number of ints in areas: 5
+The first area is 10, the 2nd 160.
+The size of a char: 1
+The size of name (char[]): 4
+The number of chars: 4
+The size of full_name (char[]): 12
+The number of chars: 12
+name="dUAN" and full_name="JMB A. Shaw"
+*/
 //Result 
 //The size of an int: 4
 //The size of areas (int[]): 20
