@@ -38,7 +38,41 @@ int main(int argc, char *argv[])
       return 0;
 }
 
-//Result
+
+/*
+numbers[0] = 1;
+numbers[1] = 'H';
+numbers[2] = 3;
+numbers[3] = 4;
+Result 1
+numbers: 0 0 0 0
+name each: a   
+name: a
+numbers: 1 72 3 4
+name each: Z e d 
+name: Zed
+another: Zed
+another each: Z e d 
+Result 2
+numbers: 0 0 0 0
+name each: a   
+name: a
+numbers: 1 2 3 4
+name each: N e d 
+name: Ned
+another: Zed
+another each: Z e d 
+Result 3
+numbers: 0 0 0 0
+name each: a   
+name: 97
+numbers: 1 2 3 4
+name each: Z e d 
+name: 90
+another: Zed
+another each: Z e d 
+*/
+//Result 4
 //numbers: 97 98 99 100
 //name each: a
 //name: a
