@@ -93,7 +93,8 @@ Result 1
 3: a is not a vowel
 4: r
 5: a is not a vowel
-
+*/
+/*
 Result 2
 
 int i = 0;
@@ -126,7 +127,8 @@ int i = 0;
                     // it's only sometimes Y
                     printf("%d: 'Y'\n", i);
                 }
-                
+*/
+/*               
 Result 3
 int j = 0;
     int i = 0;
@@ -172,6 +174,19 @@ int j = 0;
             }
         }
     }
+ 
+ 
+ Argument 1: May
+0: 'M'
+1: a is not a vowel
+2: 'y'
+Argument 2: Matu
+0: M is not a vowel
+1: 'a' 
+2: t is not a vowel 
+3: u is not a vowel*/
+    */
+/*
 Result 4
 int i = 0;
   	for (i = 0; argv[1][i] != '\0'; i++) {
@@ -201,6 +216,6 @@ int i = 0;
         }
     }
     return 0;
-   
+ }  
 
 */
